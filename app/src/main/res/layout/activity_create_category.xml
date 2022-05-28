@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateCategoryActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:src="@drawable/camera" />
+
+    <EditText
+        android:id="@+id/category_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50sp"
+        android:padding="10dp"
+        android:hint="Category Name"
+        android:inputType="text"
+        android:textColorHint="@android:color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:text="Save Category" />
+</LinearLayout>
+</ScrollView>

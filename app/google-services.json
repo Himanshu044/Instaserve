@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654621948679",
+    "project_id": "instaserve-92f2d",
+    "storage_bucket": "instaserve-92f2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654621948679:android:abfcd6449e1edc3fe523a2",
+        "android_client_info": {
+          "package_name": "com.example.instaserve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654621948679-k0dhe749hld13e2mbnloodldpgtr81tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU4c2hqi_xK1heSR2SJVEaBffpUad2OUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654621948679-k0dhe749hld13e2mbnloodldpgtr81tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
